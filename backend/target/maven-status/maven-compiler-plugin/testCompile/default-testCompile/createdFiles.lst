@@ -1,0 +1,4 @@
+com\delivery\controller\AuthControllerHttpTest.class
+com\delivery\controller\AuthControllerIntegrationTest.class
+com\delivery\controller\AuthControllerTest.class
+com\delivery\util\PhoneNumberValidatorTest.class

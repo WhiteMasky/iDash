@@ -1,0 +1,67 @@
+server:
+  port: 8080
+  servlet:
+    context-path: /
+
+spring:
+  application:
+    name: delivery-platform
+  
+  # 数据库配置
+  datasource:
+    url: jdbc:mysql://localhost:3306/delivery?useSSL=false&serverTimezone=UTC&allowPublicKeyRetrieval=true&useUnicode=true&characterEncoding=utf8&autoReconnect=true
+    username: root
+    password: 20000504zyc
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  
+  # JPA配置
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql: true
+        dialect: org.hibernate.dialect.MySQLDialect
+  
+  # Redis配置
+  data:
+    redis:
+      host: localhost
+      port: 6379
+      password: 
+      database: 0
+
+# JWT配置
+jwt:
+  secret: 404E635266556A586E3272357538782F413F4428472B4B6250645367566B5970
+  expiration: 86400000 # 24小时
+
+# 短信服务配置
+sms:
+  provider: twilio # 或其他短信服务提供商
+  account-sid: your-account-sid
+  auth-token: your-auth-token
+  from-number: your-twilio-number
+
+# Google Maps配置
+google:
+  maps:
+    api-key: your-google-maps-api-key
+
+# 支付配置
+payment:
+  stripe:
+    secret-key: your-stripe-secret-key
+    webhook-secret: your-stripe-webhook-secret
+  paypal:
+    client-id: your-paypal-client-id
+    client-secret: your-paypal-client-secret
+    mode: sandbox # 测试环境使用sandbox，生产环境使用live
+
+# 日志配置
+logging:
+  level:
+    root: INFO
+    com.delivery: DEBUG
+    org.springframework.security: DEBUG 
