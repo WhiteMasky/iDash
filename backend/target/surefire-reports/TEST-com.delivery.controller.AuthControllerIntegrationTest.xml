@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.delivery.controller.AuthControllerIntegrationTest" time="1.812" tests="6" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="com.delivery.controller.AuthControllerIntegrationTest" time="2.297" tests="6" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -17,7 +17,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CN"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-17\bin"/>
-    <property name="sun.java.command" value="C:\Users\Striker\AppData\Local\Temp\surefire17962983805852269556\surefirebooter-20250304160822972_3.jar C:\Users\Striker\AppData\Local\Temp\surefire17962983805852269556 2025-03-04T16-08-22_742-jvmRun1 surefire-20250304160822972_1tmp surefire_0-20250304160822972_2tmp"/>
+    <property name="sun.java.command" value="C:\Users\Striker\AppData\Local\Temp\surefire13706560196174375506\surefirebooter-20250305123453007_3.jar C:\Users\Striker\AppData\Local\Temp\surefire13706560196174375506 2025-03-05T12-34-52_744-jvmRun1 surefire-20250305123453007_1tmp surefire_0-20250305123453007_2tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\Striker\OneDrive - Australian National University\桌面\ANU\25S1\iDash\backend\target\test-classes;C:\Users\Striker\OneDrive - Australian National University\桌面\ANU\25S1\iDash\backend\target\classes;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-web\3.2.3\spring-boot-starter-web-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter\3.2.3\spring-boot-starter-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot\3.2.3\spring-boot-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-autoconfigure\3.2.3\spring-boot-autoconfigure-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-logging\3.2.3\spring-boot-starter-logging-3.2.3.jar;C:\Users\Striker\.m2\repository\ch\qos\logback\logback-classic\1.4.14\logback-classic-1.4.14.jar;C:\Users\Striker\.m2\repository\ch\qos\logback\logback-core\1.4.14\logback-core-1.4.14.jar;C:\Users\Striker\.m2\repository\org\apache\logging\log4j\log4j-to-slf4j\2.21.1\log4j-to-slf4j-2.21.1.jar;C:\Users\Striker\.m2\repository\org\apache\logging\log4j\log4j-api\2.21.1\log4j-api-2.21.1.jar;C:\Users\Striker\.m2\repository\org\slf4j\jul-to-slf4j\2.0.12\jul-to-slf4j-2.0.12.jar;C:\Users\Striker\.m2\repository\jakarta\annotation\jakarta.annotation-api\2.1.1\jakarta.annotation-api-2.1.1.jar;C:\Users\Striker\.m2\repository\org\yaml\snakeyaml\2.2\snakeyaml-2.2.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-json\3.2.3\spring-boot-starter-json-3.2.3.jar;C:\Users\Striker\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.15.4\jackson-datatype-jdk8-2.15.4.jar;C:\Users\Striker\.m2\repository\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.15.4\jackson-datatype-jsr310-2.15.4.jar;C:\Users\Striker\.m2\repository\com\fasterxml\jackson\module\jackson-module-parameter-names\2.15.4\jackson-module-parameter-names-2.15.4.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-tomcat\3.2.3\spring-boot-starter-tomcat-3.2.3.jar;C:\Users\Striker\.m2\repository\org\apache\tomcat\embed\tomcat-embed-core\10.1.19\tomcat-embed-core-10.1.19.jar;C:\Users\Striker\.m2\repository\org\apache\tomcat\embed\tomcat-embed-websocket\10.1.19\tomcat-embed-websocket-10.1.19.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-web\6.1.4\spring-web-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-beans\6.1.4\spring-beans-6.1.4.jar;C:\Users\Striker\.m2\repository\io\micrometer\micrometer-observation\1.12.3\micrometer-observation-1.12.3.jar;C:\Users\Striker\.m2\repository\io\micrometer\micrometer-commons\1.12.3\micrometer-commons-1.12.3.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-webmvc\6.1.4\spring-webmvc-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-context\6.1.4\spring-context-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-expression\6.1.4\spring-expression-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-data-jpa\3.2.3\spring-boot-starter-data-jpa-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-aop\3.2.3\spring-boot-starter-aop-3.2.3.jar;C:\Users\Striker\.m2\repository\org\aspectj\aspectjweaver\1.9.21\aspectjweaver-1.9.21.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-jdbc\3.2.3\spring-boot-starter-jdbc-3.2.3.jar;C:\Users\Striker\.m2\repository\com\zaxxer\HikariCP\5.0.1\HikariCP-5.0.1.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-jdbc\6.1.4\spring-jdbc-6.1.4.jar;C:\Users\Striker\.m2\repository\org\hibernate\orm\hibernate-core\6.4.4.Final\hibernate-core-6.4.4.Final.jar;C:\Users\Striker\.m2\repository\jakarta\persistence\jakarta.persistence-api\3.1.0\jakarta.persistence-api-3.1.0.jar;C:\Users\Striker\.m2\repository\jakarta\transaction\jakarta.transaction-api\2.0.1\jakarta.transaction-api-2.0.1.jar;C:\Users\Striker\.m2\repository\org\jboss\logging\jboss-logging\3.5.3.Final\jboss-logging-3.5.3.Final.jar;C:\Users\Striker\.m2\repository\org\hibernate\common\hibernate-commons-annotations\6.0.6.Final\hibernate-commons-annotations-6.0.6.Final.jar;C:\Users\Striker\.m2\repository\io\smallrye\jandex\3.1.2\jandex-3.1.2.jar;C:\Users\Striker\.m2\repository\com\fasterxml\classmate\1.6.0\classmate-1.6.0.jar;C:\Users\Striker\.m2\repository\net\bytebuddy\byte-buddy\1.14.12\byte-buddy-1.14.12.jar;C:\Users\Striker\.m2\repository\org\glassfish\jaxb\jaxb-runtime\4.0.4\jaxb-runtime-4.0.4.jar;C:\Users\Striker\.m2\repository\org\glassfish\jaxb\jaxb-core\4.0.4\jaxb-core-4.0.4.jar;C:\Users\Striker\.m2\repository\org\eclipse\angus\angus-activation\2.0.1\angus-activation-2.0.1.jar;C:\Users\Striker\.m2\repository\org\glassfish\jaxb\txw2\4.0.4\txw2-4.0.4.jar;C:\Users\Striker\.m2\repository\com\sun\istack\istack-commons-runtime\4.1.2\istack-commons-runtime-4.1.2.jar;C:\Users\Striker\.m2\repository\jakarta\inject\jakarta.inject-api\2.0.1\jakarta.inject-api-2.0.1.jar;C:\Users\Striker\.m2\repository\org\antlr\antlr4-runtime\4.13.0\antlr4-runtime-4.13.0.jar;C:\Users\Striker\.m2\repository\org\springframework\data\spring-data-jpa\3.2.3\spring-data-jpa-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\data\spring-data-commons\3.2.3\spring-data-commons-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-orm\6.1.4\spring-orm-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-tx\6.1.4\spring-tx-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-aspects\6.1.4\spring-aspects-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-security\3.2.3\spring-boot-starter-security-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-aop\6.1.4\spring-aop-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\security\spring-security-config\6.2.2\spring-security-config-6.2.2.jar;C:\Users\Striker\.m2\repository\org\springframework\security\spring-security-web\6.2.2\spring-security-web-6.2.2.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-validation\3.2.3\spring-boot-starter-validation-3.2.3.jar;C:\Users\Striker\.m2\repository\org\apache\tomcat\embed\tomcat-embed-el\10.1.19\tomcat-embed-el-10.1.19.jar;C:\Users\Striker\.m2\repository\org\hibernate\validator\hibernate-validator\8.0.1.Final\hibernate-validator-8.0.1.Final.jar;C:\Users\Striker\.m2\repository\jakarta\validation\jakarta.validation-api\3.0.2\jakarta.validation-api-3.0.2.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-data-redis\3.2.3\spring-boot-starter-data-redis-3.2.3.jar;C:\Users\Striker\.m2\repository\io\lettuce\lettuce-core\6.3.1.RELEASE\lettuce-core-6.3.1.RELEASE.jar;C:\Users\Striker\.m2\repository\io\netty\netty-common\4.1.107.Final\netty-common-4.1.107.Final.jar;C:\Users\Striker\.m2\repository\io\netty\netty-handler\4.1.107.Final\netty-handler-4.1.107.Final.jar;C:\Users\Striker\.m2\repository\io\netty\netty-resolver\4.1.107.Final\netty-resolver-4.1.107.Final.jar;C:\Users\Striker\.m2\repository\io\netty\netty-buffer\4.1.107.Final\netty-buffer-4.1.107.Final.jar;C:\Users\Striker\.m2\repository\io\netty\netty-transport-native-unix-common\4.1.107.Final\netty-transport-native-unix-common-4.1.107.Final.jar;C:\Users\Striker\.m2\repository\io\netty\netty-codec\4.1.107.Final\netty-codec-4.1.107.Final.jar;C:\Users\Striker\.m2\repository\io\netty\netty-transport\4.1.107.Final\netty-transport-4.1.107.Final.jar;C:\Users\Striker\.m2\repository\io\projectreactor\reactor-core\3.6.3\reactor-core-3.6.3.jar;C:\Users\Striker\.m2\repository\org\reactivestreams\reactive-streams\1.0.4\reactive-streams-1.0.4.jar;C:\Users\Striker\.m2\repository\org\springframework\data\spring-data-redis\3.2.3\spring-data-redis-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\data\spring-data-keyvalue\3.2.3\spring-data-keyvalue-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-oxm\6.1.4\spring-oxm-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-context-support\6.1.4\spring-context-support-6.1.4.jar;C:\Users\Striker\.m2\repository\com\mysql\mysql-connector-j\8.3.0\mysql-connector-j-8.3.0.jar;C:\Users\Striker\.m2\repository\com\h2database\h2\2.2.224\h2-2.2.224.jar;C:\Users\Striker\.m2\repository\io\jsonwebtoken\jjwt-api\0.11.5\jjwt-api-0.11.5.jar;C:\Users\Striker\.m2\repository\io\jsonwebtoken\jjwt-impl\0.11.5\jjwt-impl-0.11.5.jar;C:\Users\Striker\.m2\repository\io\jsonwebtoken\jjwt-jackson\0.11.5\jjwt-jackson-0.11.5.jar;C:\Users\Striker\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.15.4\jackson-databind-2.15.4.jar;C:\Users\Striker\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.15.4\jackson-annotations-2.15.4.jar;C:\Users\Striker\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.15.4\jackson-core-2.15.4.jar;C:\Users\Striker\.m2\repository\com\googlecode\libphonenumber\libphonenumber\8.13.25\libphonenumber-8.13.25.jar;C:\Users\Striker\.m2\repository\org\projectlombok\lombok\1.18.30\lombok-1.18.30.jar;C:\Users\Striker\.m2\repository\org\mapstruct\mapstruct\1.5.5.Final\mapstruct-1.5.5.Final.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-starter-test\3.2.3\spring-boot-starter-test-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-test\3.2.3\spring-boot-test-3.2.3.jar;C:\Users\Striker\.m2\repository\org\springframework\boot\spring-boot-test-autoconfigure\3.2.3\spring-boot-test-autoconfigure-3.2.3.jar;C:\Users\Striker\.m2\repository\com\jayway\jsonpath\json-path\2.9.0\json-path-2.9.0.jar;C:\Users\Striker\.m2\repository\jakarta\xml\bind\jakarta.xml.bind-api\4.0.1\jakarta.xml.bind-api-4.0.1.jar;C:\Users\Striker\.m2\repository\jakarta\activation\jakarta.activation-api\2.1.2\jakarta.activation-api-2.1.2.jar;C:\Users\Striker\.m2\repository\net\minidev\json-smart\2.5.0\json-smart-2.5.0.jar;C:\Users\Striker\.m2\repository\net\minidev\accessors-smart\2.5.0\accessors-smart-2.5.0.jar;C:\Users\Striker\.m2\repository\org\ow2\asm\asm\9.3\asm-9.3.jar;C:\Users\Striker\.m2\repository\org\assertj\assertj-core\3.24.2\assertj-core-3.24.2.jar;C:\Users\Striker\.m2\repository\org\awaitility\awaitility\4.2.0\awaitility-4.2.0.jar;C:\Users\Striker\.m2\repository\org\hamcrest\hamcrest\2.2\hamcrest-2.2.jar;C:\Users\Striker\.m2\repository\org\junit\jupiter\junit-jupiter\5.10.2\junit-jupiter-5.10.2.jar;C:\Users\Striker\.m2\repository\org\junit\jupiter\junit-jupiter-api\5.10.2\junit-jupiter-api-5.10.2.jar;C:\Users\Striker\.m2\repository\org\opentest4j\opentest4j\1.3.0\opentest4j-1.3.0.jar;C:\Users\Striker\.m2\repository\org\junit\platform\junit-platform-commons\1.10.2\junit-platform-commons-1.10.2.jar;C:\Users\Striker\.m2\repository\org\apiguardian\apiguardian-api\1.1.2\apiguardian-api-1.1.2.jar;C:\Users\Striker\.m2\repository\org\junit\jupiter\junit-jupiter-params\5.10.2\junit-jupiter-params-5.10.2.jar;C:\Users\Striker\.m2\repository\org\junit\jupiter\junit-jupiter-engine\5.10.2\junit-jupiter-engine-5.10.2.jar;C:\Users\Striker\.m2\repository\org\junit\platform\junit-platform-engine\1.10.2\junit-platform-engine-1.10.2.jar;C:\Users\Striker\.m2\repository\org\mockito\mockito-core\5.7.0\mockito-core-5.7.0.jar;C:\Users\Striker\.m2\repository\net\bytebuddy\byte-buddy-agent\1.14.12\byte-buddy-agent-1.14.12.jar;C:\Users\Striker\.m2\repository\org\objenesis\objenesis\3.3\objenesis-3.3.jar;C:\Users\Striker\.m2\repository\org\mockito\mockito-junit-jupiter\5.7.0\mockito-junit-jupiter-5.7.0.jar;C:\Users\Striker\.m2\repository\org\skyscreamer\jsonassert\1.5.1\jsonassert-1.5.1.jar;C:\Users\Striker\.m2\repository\com\vaadin\external\google\android-json\0.0.20131108.vaadin1\android-json-0.0.20131108.vaadin1.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-core\6.1.4\spring-core-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-jcl\6.1.4\spring-jcl-6.1.4.jar;C:\Users\Striker\.m2\repository\org\springframework\spring-test\6.1.4\spring-test-6.1.4.jar;C:\Users\Striker\.m2\repository\org\xmlunit\xmlunit-core\2.9.1\xmlunit-core-2.9.1.jar;C:\Users\Striker\.m2\repository\org\springframework\security\spring-security-test\6.2.2\spring-security-test-6.2.2.jar;C:\Users\Striker\.m2\repository\org\springframework\security\spring-security-core\6.2.2\spring-security-core-6.2.2.jar;C:\Users\Striker\.m2\repository\org\springframework\security\spring-security-crypto\6.2.2\spring-security-crypto-6.2.2.jar;C:\Users\Striker\.m2\repository\org\testcontainers\testcontainers\1.19.3\testcontainers-1.19.3.jar;C:\Users\Striker\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\Striker\.m2\repository\org\hamcrest\hamcrest-core\2.2\hamcrest-core-2.2.jar;C:\Users\Striker\.m2\repository\org\slf4j\slf4j-api\2.0.12\slf4j-api-2.0.12.jar;C:\Users\Striker\.m2\repository\org\apache\commons\commons-compress\1.24.0\commons-compress-1.24.0.jar;C:\Users\Striker\.m2\repository\org\rnorth\duct-tape\duct-tape\1.0.8\duct-tape-1.0.8.jar;C:\Users\Striker\.m2\repository\org\jetbrains\annotations\17.0.0\annotations-17.0.0.jar;C:\Users\Striker\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Striker\.m2\repository\com\github\docker-java\docker-java-transport-zerodep\3.3.4\docker-java-transport-zerodep-3.3.4.jar;C:\Users\Striker\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Striker\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -34,7 +34,7 @@
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="FILE_LOG_CHARSET" value="UTF-8"/>
     <property name="java.awt.headless" value="true"/>
-    <property name="surefire.real.class.path" value="C:\Users\Striker\AppData\Local\Temp\surefire17962983805852269556\surefirebooter-20250304160822972_3.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\Striker\AppData\Local\Temp\surefire13706560196174375506\surefirebooter-20250305123453007_3.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.8+9-LTS-211"/>
@@ -47,16 +47,16 @@
     <property name="localRepository" value="C:\Users\Striker\.m2\repository"/>
     <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
     <property name="java.io.tmpdir" value="C:\Users\Striker\AppData\Local\Temp\"/>
-    <property name="catalina.home" value="C:\Users\Striker\AppData\Local\Temp\tomcat.0.4573774953730287785"/>
+    <property name="catalina.home" value="C:\Users\Striker\AppData\Local\Temp\tomcat.0.15312524132054110383"/>
     <property name="com.zaxxer.hikari.pool_number" value="2"/>
     <property name="java.version" value="17.0.8"/>
     <property name="user.dir" value="C:\Users\Striker\OneDrive - Australian National University\桌面\ANU\25S1\iDash\backend"/>
     <property name="os.arch" value="amd64"/>
     <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
-    <property name="PID" value="42664"/>
+    <property name="PID" value="22236"/>
     <property name="sun.os.patch.level" value=""/>
     <property name="CONSOLE_LOG_CHARSET" value="UTF-8"/>
-    <property name="catalina.base" value="C:\Users\Striker\AppData\Local\Temp\tomcat.0.4573774953730287785"/>
+    <property name="catalina.base" value="C:\Users\Striker\AppData\Local\Temp\tomcat.0.15312524132054110383"/>
     <property name="native.encoding" value="UTF-8"/>
     <property name="java.library.path" value="C:\Program Files\Java\jdk-17\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Python313\Scripts\;C:\Python313\;c:\Users\Striker\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;C:\windows\system32;C:\windows;C:\windows\System32\Wbem;C:\windows\System32\WindowsPowerShell\v1.0\;C:\windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Users\Administrator\AppData\Local\Microsoft\WindowsApps;C:\Program Files\HP\OMEN-Broadcast\Common;C:\Program Files\Git\cmd;C:\Program Files\Java\jdk-17\bin;C:\Program Files\dotnet\;C:\Program Files\TortoiseSVN\bin;C:\Program Files\Git\bin\Git LFS;C:\Program Files\NVIDIA Corporation\Nsight Compute 2023.3.1\;C:\ProgramData\chocolatey\bin;C:\Portable Application\ffmpeg\bin;C:\Portable Application\pandoc-3.4;C:\Program Files\CMake\bin;C:\Program Files\Ninja;C:\Program Files\mingw64\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WIN;c:\Users\Striker\AppData\Local\Programs\cursor\resources\app\bin;C:\Program Files\nodejs\;C:\Program Files\Apache\maven\bin;C:\Program Files\Apache\maven\bin;C:\Program Files\MySQL\MySQL Server 9.2\bin;C:\Users\Striker\anaconda3;C:\Users\Striker\anaconda3\Library\mingw-w64\bin;C:\Users\Striker\anaconda3\Library\usr\bin;C:\Users\Striker\anaconda3\Library\bin;C:\Users\Striker\anaconda3\Scripts;C:\Users\Striker\AppData\Local\Microsoft\WindowsApps;C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2023.1.4\bin;;C:\Program Files\JetBrains\PyCharm Community Edition 2023.2\bin;;C:\Users\Striker\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Striker\AppData\Local\GitHubDesktop\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\bin;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\include;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\lib;C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v12.3\libnvvp;C:\texlive\2023\bin\windows;C:\Program Files\CMake\bin;C:\Program Files\Ninja;C:\Program Files\mingw64\bin;C:\Users\Striker\.julia\juliaup\julia-1.11.1+0.x64.w64.mingw32\bin;C:\Users\Striker\AppData\Local\Programs\cursor\resources\app\bin;C:\Users\Striker\AppData\Roaming\npm;."/>
     <property name="java.vm.info" value="mixed mode, sharing"/>
@@ -66,9 +66,9 @@
     <property name="java.class.version" value="61.0"/>
     <property name="LOGGED_APPLICATION_NAME" value="[delivery-platform] "/>
   </properties>
-  <testcase name="testRegisterMerchant" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.371">
-    <system-out><![CDATA[2025-03-04T16:08:33.443+11:00  INFO 42664 --- [delivery-platform] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.delivery.controller.AuthControllerIntegrationTest]: AuthControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-2025-03-04T16:08:33.450+11:00  INFO 42664 --- [delivery-platform] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.delivery.DeliveryPlatformApplication for test class com.delivery.controller.AuthControllerIntegrationTest
+  <testcase name="testRegisterMerchant" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.464">
+    <system-out><![CDATA[2025-03-05T12:35:07.052+11:00  INFO 22236 --- [delivery-platform] [           main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [com.delivery.controller.AuthControllerIntegrationTest]: AuthControllerIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-03-05T12:35:07.065+11:00  INFO 22236 --- [delivery-platform] [           main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration com.delivery.DeliveryPlatformApplication for test class com.delivery.controller.AuthControllerIntegrationTest
 
   .   ____          _            __ _ _
  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
@@ -78,29 +78,60 @@
  =========|_|==============|___/=/_/_/_/
  :: Spring Boot ::                (v3.2.3)
 
-2025-03-04T16:08:33.509+11:00  INFO 42664 --- [delivery-platform] [           main] c.d.c.AuthControllerIntegrationTest      : Starting AuthControllerIntegrationTest using Java 17.0.8 with PID 42664 (started by Striker in C:\Users\Striker\OneDrive - Australian National University\桌面\ANU\25S1\iDash\backend)
-2025-03-04T16:08:33.509+11:00 DEBUG 42664 --- [delivery-platform] [           main] c.d.c.AuthControllerIntegrationTest      : Running with Spring Boot v3.2.3, Spring v6.1.4
-2025-03-04T16:08:33.509+11:00  INFO 42664 --- [delivery-platform] [           main] c.d.c.AuthControllerIntegrationTest      : The following 1 profile is active: "test"
-2025-03-04T16:08:33.718+11:00  INFO 42664 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-03-04T16:08:33.718+11:00  INFO 42664 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2025-03-04T16:08:33.753+11:00  INFO 42664 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interface.
-2025-03-04T16:08:33.760+11:00  INFO 42664 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
-2025-03-04T16:08:33.761+11:00  INFO 42664 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
-2025-03-04T16:08:33.769+11:00  INFO 42664 --- [delivery-platform] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.delivery.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
-2025-03-04T16:08:33.769+11:00  INFO 42664 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.
-2025-03-04T16:08:33.884+11:00  INFO 42664 --- [delivery-platform] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2025-03-04T16:08:33.889+11:00  INFO 42664 --- [delivery-platform] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2025-03-04T16:08:33.893+11:00  INFO 42664 --- [delivery-platform] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2025-03-04T16:08:33.894+11:00  INFO 42664 --- [delivery-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
-2025-03-04T16:08:33.895+11:00  INFO 42664 --- [delivery-platform] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
-2025-03-04T16:08:33.896+11:00  INFO 42664 --- [delivery-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
-2025-03-04T16:08:33.896+11:00  WARN 42664 --- [delivery-platform] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
-2025-03-04T16:08:33.966+11:00  INFO 42664 --- [delivery-platform] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2025-03-04T16:08:33.966+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:07.128+11:00  INFO 22236 --- [delivery-platform] [           main] c.d.c.AuthControllerIntegrationTest      : Starting AuthControllerIntegrationTest using Java 17.0.8 with PID 22236 (started by Striker in C:\Users\Striker\OneDrive - Australian National University\桌面\ANU\25S1\iDash\backend)
+2025-03-05T12:35:07.128+11:00 DEBUG 22236 --- [delivery-platform] [           main] c.d.c.AuthControllerIntegrationTest      : Running with Spring Boot v3.2.3, Spring v6.1.4
+2025-03-05T12:35:07.128+11:00  INFO 22236 --- [delivery-platform] [           main] c.d.c.AuthControllerIntegrationTest      : The following 1 profile is active: "test"
+2025-03-05T12:35:07.372+11:00  INFO 22236 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-05T12:35:07.372+11:00  INFO 22236 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-05T12:35:07.393+11:00  INFO 22236 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 21 ms. Found 2 JPA repository interfaces.
+2025-03-05T12:35:07.395+11:00  INFO 22236 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2025-03-05T12:35:07.395+11:00  INFO 22236 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2025-03-05T12:35:07.403+11:00  INFO 22236 --- [delivery-platform] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.delivery.repository.MenuItemRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-03-05T12:35:07.403+11:00  INFO 22236 --- [delivery-platform] [           main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.delivery.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2025-03-05T12:35:07.403+11:00  INFO 22236 --- [delivery-platform] [           main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.
+2025-03-05T12:35:07.503+11:00  INFO 22236 --- [delivery-platform] [           main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-05T12:35:07.509+11:00  INFO 22236 --- [delivery-platform] [           main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-05T12:35:07.511+11:00  INFO 22236 --- [delivery-platform] [           main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-05T12:35:07.511+11:00  INFO 22236 --- [delivery-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-03-05T12:35:07.511+11:00  INFO 22236 --- [delivery-platform] [           main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection conn10: url=jdbc:h2:mem:testdb user=SA
+2025-03-05T12:35:07.511+11:00  INFO 22236 --- [delivery-platform] [           main] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-03-05T12:35:07.511+11:00  WARN 22236 --- [delivery-platform] [           main] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-05T12:35:07.601+11:00  INFO 22236 --- [delivery-platform] [           main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-05T12:35:07.601+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+    drop table if exists menu_items cascade 
+Hibernate: 
+    drop table if exists menu_items cascade 
+2025-03-05T12:35:07.609+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     drop table if exists users cascade 
 Hibernate: 
     drop table if exists users cascade 
-2025-03-04T16:08:33.969+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:07.611+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+    create table menu_items (
+        available boolean not null,
+        price numeric(38,2) not null,
+        created_at timestamp(6),
+        id bigint generated by default as identity,
+        merchant_id bigint not null,
+        updated_at timestamp(6),
+        description varchar(255),
+        image_url varchar(255),
+        name varchar(255) not null,
+        primary key (id)
+    )
+Hibernate: 
+    create table menu_items (
+        available boolean not null,
+        price numeric(38,2) not null,
+        created_at timestamp(6),
+        id bigint generated by default as identity,
+        merchant_id bigint not null,
+        updated_at timestamp(6),
+        description varchar(255),
+        image_url varchar(255),
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-03-05T12:35:07.613+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     create table users (
         enabled boolean not null,
         is_available boolean,
@@ -144,19 +175,29 @@ Hibernate:
         vehicle_type varchar(255),
         primary key (id)
     )
-2025-03-04T16:08:33.972+11:00  INFO 42664 --- [delivery-platform] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2025-03-04T16:08:34.045+11:00  WARN 42664 --- [delivery-platform] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-03-04T16:08:34.113+11:00  INFO 42664 --- [delivery-platform] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1ff359b7, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5bbda8aa, org.springframework.security.web.context.SecurityContextHolderFilter@4ca3e806, org.springframework.security.web.header.HeaderWriterFilter@66e74d3, org.springframework.web.filter.CorsFilter@36d02719, org.springframework.security.web.authentication.logout.LogoutFilter@150a201b, com.delivery.security.JwtAuthenticationFilter@6d575cd8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4d542218, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@38691f8d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@46933c4, org.springframework.security.web.session.SessionManagementFilter@1e1c1634, org.springframework.security.web.access.ExceptionTranslationFilter@5b1b5daf, org.springframework.security.web.access.intercept.AuthorizationFilter@9c7699e]
-2025-03-04T16:08:34.177+11:00  INFO 42664 --- [delivery-platform] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
-2025-03-04T16:08:34.207+11:00 DEBUG 42664 --- [delivery-platform] [           main] c.d.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
-2025-03-04T16:08:34.208+11:00  INFO 42664 --- [delivery-platform] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
-2025-03-04T16:08:34.208+11:00  INFO 42664 --- [delivery-platform] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
-2025-03-04T16:08:34.208+11:00  INFO 42664 --- [delivery-platform] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
-2025-03-04T16:08:34.216+11:00  INFO 42664 --- [delivery-platform] [           main] c.d.c.AuthControllerIntegrationTest      : Started AuthControllerIntegrationTest in 0.745 seconds (process running for 11.097)
-2025-03-04T16:08:34.235+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
-2025-03-04T16:08:34.235+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-03-04T16:08:34.236+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
-2025-03-04T16:08:34.255+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:07.614+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+    alter table if exists menu_items 
+       add constraint FKbblp8l0gpt6y1tdou15ec8fad 
+       foreign key (merchant_id) 
+       references users
+Hibernate: 
+    alter table if exists menu_items 
+       add constraint FKbblp8l0gpt6y1tdou15ec8fad 
+       foreign key (merchant_id) 
+       references users
+2025-03-05T12:35:07.615+11:00  INFO 22236 --- [delivery-platform] [           main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-05T12:35:07.694+11:00  WARN 22236 --- [delivery-platform] [           main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-05T12:35:07.795+11:00  INFO 22236 --- [delivery-platform] [           main] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@72e76649, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@111c9be, org.springframework.security.web.context.SecurityContextHolderFilter@5fa73f3a, org.springframework.security.web.header.HeaderWriterFilter@2fcf1d27, org.springframework.security.web.authentication.logout.LogoutFilter@7de1cc9f, com.delivery.security.JwtAuthenticationFilter@48c8c722, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@484a91f5, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1f3b8bfe, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2176d934, org.springframework.security.web.session.SessionManagementFilter@1ae3d0a8, org.springframework.security.web.access.ExceptionTranslationFilter@1881ef74, org.springframework.security.web.access.intercept.AuthorizationFilter@229f3c5d]
+2025-03-05T12:35:07.878+11:00  INFO 22236 --- [delivery-platform] [           main] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-03-05T12:35:07.952+11:00 DEBUG 22236 --- [delivery-platform] [           main] c.d.security.JwtAuthenticationFilter     : Filter 'jwtAuthenticationFilter' configured for use
+2025-03-05T12:35:07.952+11:00  INFO 22236 --- [delivery-platform] [           main] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-03-05T12:35:07.952+11:00  INFO 22236 --- [delivery-platform] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-03-05T12:35:07.952+11:00  INFO 22236 --- [delivery-platform] [           main] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-03-05T12:35:07.975+11:00  INFO 22236 --- [delivery-platform] [           main] c.d.c.AuthControllerIntegrationTest      : Started AuthControllerIntegrationTest in 0.894 seconds (process running for 14.826)
+2025-03-05T12:35:08.029+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
+2025-03-05T12:35:08.029+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-03-05T12:35:08.029+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
+2025-03-05T12:35:08.048+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id 
     from
@@ -174,7 +215,7 @@ Hibernate:
         u1_0.phone_number=? 
     fetch
         first ? rows only
-2025-03-04T16:08:34.357+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:08.166+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     insert 
     into
         users
@@ -188,7 +229,7 @@ Hibernate:
         (avatar, business_license, created_at, current_location, email, enabled, id_card_number, is_available, merchant_address, merchant_name, name, password, phone_number, role, updated_at, vehicle_number, vehicle_type, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
-2025-03-04T16:08:34.450+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:08.277+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.avatar,
@@ -236,14 +277,14 @@ Hibernate:
         users u1_0 
     where
         u1_0.phone_number=?
-2025-03-04T16:08:34.541+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-03-05T12:35:08.402+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
 ]]></system-out>
   </testcase>
-  <testcase name="testRegisterWithValidData" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.185">
-    <system-out><![CDATA[2025-03-04T16:08:34.596+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
-2025-03-04T16:08:34.596+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-03-04T16:08:34.597+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
-2025-03-04T16:08:34.599+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+  <testcase name="testRegisterWithValidData" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.234">
+    <system-out><![CDATA[2025-03-05T12:35:08.462+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
+2025-03-05T12:35:08.462+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-03-05T12:35:08.462+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
+2025-03-05T12:35:08.462+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id 
     from
@@ -261,7 +302,7 @@ Hibernate:
         u1_0.phone_number=? 
     fetch
         first ? rows only
-2025-03-04T16:08:34.686+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:08.580+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     insert 
     into
         users
@@ -275,7 +316,7 @@ Hibernate:
         (avatar, business_license, created_at, current_location, email, enabled, id_card_number, is_available, merchant_address, merchant_name, name, password, phone_number, role, updated_at, vehicle_number, vehicle_type, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
-2025-03-04T16:08:34.689+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:08.580+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.avatar,
@@ -323,21 +364,21 @@ Hibernate:
         users u1_0 
     where
         u1_0.phone_number=?
-2025-03-04T16:08:34.772+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-03-05T12:35:08.694+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginWithInvalidPhoneNumber" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.012">
-    <system-out><![CDATA[2025-03-04T16:08:34.784+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
-2025-03-04T16:08:34.784+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-03-04T16:08:34.785+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
-2025-03-04T16:08:34.788+11:00 DEBUG 42664 --- [delivery-platform] [           main] com.delivery.util.PhoneNumberValidator   : Error parsing phone number 123: Missing or invalid default region.
+  <testcase name="testLoginWithInvalidPhoneNumber" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.018">
+    <system-out><![CDATA[2025-03-05T12:35:08.709+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-03-05T12:35:08.710+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-03-05T12:35:08.710+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2025-03-05T12:35:08.712+11:00 DEBUG 22236 --- [delivery-platform] [           main] com.delivery.util.PhoneNumberValidator   : Error parsing phone number 123: Missing or invalid default region.
 ]]></system-out>
   </testcase>
-  <testcase name="testRegisterRider" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.181">
-    <system-out><![CDATA[2025-03-04T16:08:34.797+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
-2025-03-04T16:08:34.797+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-03-04T16:08:34.797+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
-2025-03-04T16:08:34.799+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+  <testcase name="testRegisterRider" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.254">
+    <system-out><![CDATA[2025-03-05T12:35:08.725+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
+2025-03-05T12:35:08.726+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-03-05T12:35:08.726+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
+2025-03-05T12:35:08.729+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id 
     from
@@ -355,7 +396,7 @@ Hibernate:
         u1_0.phone_number=? 
     fetch
         first ? rows only
-2025-03-04T16:08:34.887+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:08.844+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     insert 
     into
         users
@@ -369,7 +410,7 @@ Hibernate:
         (avatar, business_license, created_at, current_location, email, enabled, id_card_number, is_available, merchant_address, merchant_name, name, password, phone_number, role, updated_at, vehicle_number, vehicle_type, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
-2025-03-04T16:08:34.890+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:08.848+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.avatar,
@@ -417,14 +458,14 @@ Hibernate:
         users u1_0 
     where
         u1_0.phone_number=?
-2025-03-04T16:08:34.971+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-03-05T12:35:08.964+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
 ]]></system-out>
   </testcase>
-  <testcase name="testLoginWithValidData" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.27">
-    <system-out><![CDATA[2025-03-04T16:08:34.978+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
-2025-03-04T16:08:34.978+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-03-04T16:08:34.978+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
-2025-03-04T16:08:34.981+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+  <testcase name="testLoginWithValidData" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.362">
+    <system-out><![CDATA[2025-03-05T12:35:08.966+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
+2025-03-05T12:35:08.966+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-03-05T12:35:08.966+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
+2025-03-05T12:35:08.966+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id 
     from
@@ -442,7 +483,7 @@ Hibernate:
         u1_0.phone_number=? 
     fetch
         first ? rows only
-2025-03-04T16:08:35.064+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:09.078+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     insert 
     into
         users
@@ -456,7 +497,7 @@ Hibernate:
         (avatar, business_license, created_at, current_location, email, enabled, id_card_number, is_available, merchant_address, merchant_name, name, password, phone_number, role, updated_at, vehicle_number, vehicle_type, id) 
     values
         (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, default)
-2025-03-04T16:08:35.068+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:09.078+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.avatar,
@@ -504,11 +545,11 @@ Hibernate:
         users u1_0 
     where
         u1_0.phone_number=?
-2025-03-04T16:08:35.148+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-03-04T16:08:35.151+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
-2025-03-04T16:08:35.153+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-03-04T16:08:35.153+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
-2025-03-04T16:08:35.155+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:09.207+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-03-05T12:35:09.211+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/login
+2025-03-05T12:35:09.211+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-03-05T12:35:09.211+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/login
+2025-03-05T12:35:09.214+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.avatar,
@@ -556,8 +597,8 @@ Hibernate:
         users u1_0 
     where
         u1_0.phone_number=?
-2025-03-04T16:08:35.240+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
-2025-03-04T16:08:35.242+11:00 DEBUG 42664 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
+2025-03-05T12:35:09.327+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.a.dao.DaoAuthenticationProvider    : Authenticated user
+2025-03-05T12:35:09.328+11:00 DEBUG 22236 --- [delivery-platform] [           main] org.hibernate.SQL                        : 
     select
         u1_0.id,
         u1_0.avatar,
@@ -607,11 +648,11 @@ Hibernate:
         u1_0.phone_number=?
 ]]></system-out>
   </testcase>
-  <testcase name="testRegisterWithInvalidPhoneNumber" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.006">
-    <system-out><![CDATA[2025-03-04T16:08:35.248+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
-2025-03-04T16:08:35.248+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
-2025-03-04T16:08:35.248+11:00 DEBUG 42664 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
-2025-03-04T16:08:35.249+11:00 DEBUG 42664 --- [delivery-platform] [           main] com.delivery.util.PhoneNumberValidator   : Error parsing phone number 123: Missing or invalid default region.
+  <testcase name="testRegisterWithInvalidPhoneNumber" classname="com.delivery.controller.AuthControllerIntegrationTest" time="0.009">
+    <system-out><![CDATA[2025-03-05T12:35:09.328+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Securing POST /api/auth/register
+2025-03-05T12:35:09.328+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.s.w.a.AnonymousAuthenticationFilter  : Set SecurityContextHolder to anonymous SecurityContext
+2025-03-05T12:35:09.328+11:00 DEBUG 22236 --- [delivery-platform] [           main] o.s.security.web.FilterChainProxy        : Secured POST /api/auth/register
+2025-03-05T12:35:09.337+11:00 DEBUG 22236 --- [delivery-platform] [           main] com.delivery.util.PhoneNumberValidator   : Error parsing phone number 123: Missing or invalid default region.
 ]]></system-out>
   </testcase>
 </testsuite>

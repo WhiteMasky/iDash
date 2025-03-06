@@ -49,7 +49,7 @@ public class SecurityConfig {
                     "/actuator/health/**"
                 ).permitAll()
                 .requestMatchers("/api/admin/**").hasRole("ADMIN")
-                .requestMatchers("/api/merchant/**").hasRole("MERCHANT")
+                .requestMatchers("/api/merchant/**", "/api/merchant/menu/**").hasRole("MERCHANT")
                 .requestMatchers("/api/rider/**").hasRole("RIDER")
                 .requestMatchers("/api/customer/**").hasRole("CUSTOMER")
                 .anyRequest().authenticated()
